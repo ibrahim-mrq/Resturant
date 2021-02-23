@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/nav_Home_fragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/nav_Meals_fragment"
+        android:icon="@drawable/ic_meals"
+        android:title="@string/meals" />
+
+    <item
+        android:id="@+id/nav_sandwiche_fragment"
+        android:icon="@drawable/ic_sandwiches"
+        android:title="@string/sandwiche" />
+
+    <item
+        android:id="@+id/nav_drink_fragment"
+        android:icon="@drawable/ic_drink"
+        android:title="@string/drink" />
+
+    <item
+        android:id="@+id/nav_entrees_fragment"
+        android:icon="@drawable/ic_entrees"
+        android:title="@string/entrees" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+
+</menu>

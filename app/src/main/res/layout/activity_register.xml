@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:scrollbars="none"
+    tools:context=".Activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/restaurant_image"
+            tools:ignore="ContentDescription" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textColorHint="@color/colorWhite">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_register_FirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:hint="@string/username"
+                android:inputType="text|textAutoComplete"
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorWhite"
+                android:tooltipText="" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textColorHint="@color/colorWhite">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_register_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress|textAutoComplete"
+                android:textColor="@color/colorWhite"
+                android:tooltipText="" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:textColorHint="@color/colorWhite">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_register_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorWhite"
+                android:tooltipText="" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:text="@string/register"
+            android:textColor="@color/colorAccent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_have_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/i_have_account_login"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <ProgressBar
+            android:id="@+id/reg_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:indeterminateDrawable="@drawable/p" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

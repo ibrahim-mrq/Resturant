@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Activity.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        app:srcCompat="@drawable/restaurant_image"
+        tools:ignore="ContentDescription" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/colorWhite">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="16dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress|textAutoComplete"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorWhite"
+            android:tooltipText="Email" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/colorWhite">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="16dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textAlignment="viewStart"
+            android:textColor="@color/colorWhite"
+            android:tooltipText="Password" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorWhite"
+        android:text="@string/login"
+        android:textColor="@color/colorAccent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/you_don_t_have_account_n_register"
+        android:textColor="#fff"
+        android:textSize="18sp"
+
+        />
+
+    <ProgressBar
+        android:id="@+id/Login_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:indeterminateDrawable="@drawable/p" />
+
+</LinearLayout>

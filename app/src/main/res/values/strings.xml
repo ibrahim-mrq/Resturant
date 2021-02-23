@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Restaurant</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="search">search</string>
+    <string name="cart">cart</string>
+    <string name="empty">Ooops The basket is empty !</string>
+
+    <string name="username">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="you_don_t_have_account_n_register">you don\'t have account ? register now</string>
+    <string name="register">Register</string>
+    <string name="i_have_account_login"> i have account login</string>
+
+    <string name="Please_Enter_Your_Name">Please Enter Your Name</string>
+    <string name="Please_Enter_Your_Email">Please Enter Your Email</string>
+    <string name="Please_Enter_Your_Password">Please Enter Your Password</string>
+    <string name="Password_is_short">Password Is Short</string>
+    <string name="Register_Successful">Register Successful</string>
+    <string name="Login_Error">Login Error</string>
+    <string name="Login_Successful">Login Successful</string>
+    <string name="Account_Is_Empty">Your account does not exist, you can create a new account!</string>
+
+
+    <string name="Delete_Product">Are you sure you want to remove this product from the cart!</string>
+
+    <string name="Do_you_want_add">  Do you want to add  </string>
+    <string name="At_a_price">  At a price  </string>
+    <string name="To_the_Cart">  To the Cart !!  </string>
+    <string name="home">Home</string>
+    <string name="meals">Meals</string>
+    <string name="sandwiche">Sandwiche</string>
+    <string name="drink">Drink</string>
+    <string name="entrees">Entrees</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+
+</resources>

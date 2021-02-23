@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مطعم</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="search">بحث</string>
+    <string name="cart">سلة</string>
+    <string name="empty">اوبس ، السلة فارغة !</string>
+
+    <string name="username">الاسم</string>
+    <string name="email">الايميل</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="you_don_t_have_account_n_register">انت لا تملك حساب ؟ تسجيل جديد </string>
+    <string name="register">تسجيل جديد</string>
+    <string name="i_have_account_login">انا املك حساب؟ تسجيل دخول</string>
+
+
+    <string name="Please_Enter_Your_Name">من فضلك أدخل إسمك</string>
+    <string name="Please_Enter_Your_Email">من فضلك أدخل ايميلك</string>
+    <string name="Please_Enter_Your_Password">من فضلك أدخل كلمة المرور</string>
+    <string name="Password_is_short"> كلمة المرور قصيرة</string>
+    <string name="Register_Successful">تم التسجيل بنجاح</string>
+    <string name="Login_Error">خطأ في تسجيل الدخول</string>
+    <string name="Login_Successful">تم تسجيل الدخول بنجاح</string>
+    <string name="Account_Is_Empty">حسابك غير موجدو ، يمكنك انشاء حساب جديد !</string>
+    <string name="Delete_Product">هل انت متاكد من انك تريد حذف هذا المنتج من السلة !!</string>
+    <string name="Do_you_want_add"> هل تريد اضافة </string>
+    <string name="At_a_price"> بسعر </string>
+    <string name="To_the_Cart">  الى السلة ! </string>
+
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="meals">وجبات</string>
+    <string name="sandwiche">السندويشات</string>
+    <string name="drink">مشروبات</string>
+    <string name="entrees">مقبلات</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="logout">تسجيل خروج</string>
+
+
+</resources>
